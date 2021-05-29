@@ -51,7 +51,7 @@ function getHue(str) {
 }
 
 function stringToColour(str, lightness = 90) {
-  return `hsla(${getHue(str)}, 100%, ${lightness}%, 1)`;
+  return `hsla(${getHue(str)},100%,${lightness}%,1)`;
 }
 
 export default {
